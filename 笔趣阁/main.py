@@ -104,5 +104,5 @@ def get_Request(url):
     return html.text
 
 
-book_number = input()
+book_number = input("请输入小说的编号：")
 get_url(book_number)
